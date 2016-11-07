@@ -1,18 +1,18 @@
 # ハッシュ
 # - key / value
 
-# taguchi 200
-# fkoji 400
+# isshiki 200
+# pomu 400
 
-scores = {"taguchi" => 200, "fkoji" => 400}
-scores = {:taguchi => 200, :fkoji => 400}
-scores = {taguchi: 200, fkoji: 400}
+scores = {"isshiki" => 200, "pomu" => 400}
+scores = {:isshiki => 200, :pomu => 400}
+scores = {isshiki: 200, pomu: 400}
 
-p scores[:taguchi]
-scores[:fkoji] = 600
+p scores[:isshiki]
+scores[:pomu] = 600
 p scores
 
 p scores.size
 p scores.keys
 p scores.values
-p scores.has_key?(:taguchi)
+p scores.has_key?(:isshiki)

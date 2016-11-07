@@ -2,7 +2,7 @@
 # - upcase
 # - upcase! 破壊的なメソッド
 # - downcase reverse
-name = "taguchi"
+name = "isshiki"
 # puts name.upcase
 # puts name
 # puts name.upcase!
@@ -11,4 +11,4 @@ name = "taguchi"
 # ? 真偽値 true false
 
 p name.empty? # false
-p name.include?("g") #true
+p name.include?("k") #true
