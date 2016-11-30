@@ -8,7 +8,7 @@ class User
   # getter: name
 
   def initialize(name)
-  	@name = name
+    @name = name
   end
 
   def sayHi
