@@ -12,11 +12,11 @@ class User
   end
 
   def sayHi
-  	# self
-  	# self.name -> @name
-  	puts "hi! i am #{@name}"
-  	puts "hi! i am #{self.name}"
-  	puts "hi! i am #{name}"
+    # self
+    # self.name -> @name
+    puts "hi! i am #{@name}"
+    puts "hi! i am #{self.name}"
+    puts "hi! i am #{name}"
   end
 
 end
