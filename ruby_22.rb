@@ -23,7 +23,12 @@ class AdminUser < User
 
 # オーバーライド
 def sayHi
+  super
   puts "hi! from admin!"
+end
+
+def initialize(name)
+  super(name)
 end
 
 end
